@@ -1,0 +1,126 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f6f8;
+}
+.Choices {
+  padding: 50px 0;
+
+}
+.Choices a {
+  text-decoration: none;
+}
+.Choices a:hover {
+  text-decoration: none;
+
+}
+.Choices .Choices-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 20px 20px 10px 10px;
+  color: #333;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+  transition: all 0.4s ease-in-out;
+}
+.Choices .Choices-card:hover {
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
+.Choices .Choices-card .Choices-card-head {
+  background-color: #6ec1b7;
+  position: relative;
+  border-radius: 20px 20px 0 0;
+  padding: 30px 0 5px;
+  margin-bottom: 110px;
+}
+.Choices .Choices-card .Choices-card-head::after {
+  content: '';
+  position: absolute;
+  border-width: 100px;
+  border-style: solid;
+  border-color: #6ec1b7 transparent transparent transparent;
+  top: 100%;
+  left: 0;
+}
+.Choices .Choices-card .Choices-card-head h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+}
+.Choices .Choices-card .Choices-card-head p {
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.Choices .Choices-card .Choices-card-body .Choices-title h4 {
+  color: #6ec1b7;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.Choices .Choices-card .Choices-card-body .Choices-title p {
+  font-size: 0.8em;
+}
+.Choices .Choices-card .Choices-card-body .Choices-icon {
+  margin: 15px 0;
+}
+.Choices .Choices-card .Choices-card-body .Choices-icon .fa-search{
+  --fa-primary-color: #6ec1b7;
+  --fa-secondary-color: #6ec1b7;
+}
+.Choices .Choices-card .Choices-card-body .Choices-info {
+  margin-bottom: 15px;
+}
+.Choices .Choices-card .Choices-card-body .Choices-info p {
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+.Choices a:nth-child(2) .Choices-card .Choices-card-head{
+  background-color: #3cb2e0;
+}
+.Choices a:nth-child(2) .Choices-card .Choices-card-head::after{
+  border-color: #3cb2e0 transparent transparent transparent;
+}
+.Choices a:nth-child(2) .Choices-card .Choices-card-body .Choices-title h4 {
+  color: #3cb2e0;
+}
+.Choices a:nth-child(2) .Choices-card .Choices-card-body .Choices-icon .fa-lightbulb-on{
+  --fa-primary-color: #3cb2e0;
+  --fa-secondary-color: #3cb2e0;
+}
+
+.Choices a:nth-child(3) .Choices-card .Choices-card-head{
+  background-color: #e14658;
+}
+.Choices a:nth-child(3) .Choices-card .Choices-card-head::after{
+  border-color: #e14658 transparent transparent transparent;
+}
+.Choices a:nth-child(3) .Choices-card .Choices-card-body .Choices-title h4 {
+  color: #e14658;
+}
+.Choices a:nth-child(3) .Choices-card .Choices-card-body .Choices-icon .fa-briefcase{
+  --fa-primary-color: #e14658;
+  --fa-secondary-color: #e14658;
+}
+
+.Choices a:nth-child(4) .Choices-card .Choices-card-head{
+  background-color: #fc8f3c;
+}
+.Choices a:nth-child(4) .Choices-card .Choices-card-head::after{
+  border-color: #fc8f3c transparent transparent transparent;
+}
+.Choices a:nth-child(4) .Choices-card .Choices-card-body .Choices-title h4 {
+  color: #fc8f3c;
+}
+.Choices a:nth-child(4) .Choices-card .Choices-card-body .Choices-icon .fa-cog{
+  --fa-primary-color: #fc8f3c;
+  --fa-secondary-color: #fc8f3c;
+}
